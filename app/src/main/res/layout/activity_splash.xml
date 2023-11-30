@@ -18,12 +18,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.315"
-        app:srcCompat="@drawable/icon" />
+        app:srcCompat="@drawable/icon"
+        android:contentDescription="TODO" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="@dimen/_337sdp"
-        android:layout_height="@dimen/_103sdp"
+        android:layout_width="438sp"
+        android:layout_height="138sp"
         android:fontFamily="@font/apptext"
         android:gravity="center"
         android:text="Ch3t6"
@@ -45,8 +46,8 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="@dimen/_200sdp"
-        android:layout_height="@dimen/_25sdp"
+        android:layout_width="200dp"
+        android:layout_height="36dp"
         android:fontFamily="@font/spartan_thin"
         android:gravity="center"
         android:text="Team-036"
@@ -62,13 +63,13 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="@dimen/_100sdp"
-        android:layout_height="@dimen/_25sdp"
+        android:layout_width="100sp"
+        android:layout_height="25sp"
         android:fontFamily="@font/spartan_thin"
         android:gravity="center"
         android:text="From"
         android:textColor="@color/black"
-        android:textSize="@dimen/_12sdp"
+        android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
